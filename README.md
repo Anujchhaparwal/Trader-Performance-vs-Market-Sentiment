@@ -7,18 +7,25 @@ This project analyzes the relationship between Bitcoin market sentiment (Fear & 
 ## Project Structure
 
 ```
-Trader_Performance_vs_Market_Sentiment
+Trader-Performance-vs-Market-Sentiment/
 │
-├── data
+├── data/
 │   ├── fear_greed_index.csv
 │   └── historical_data.csv
 │
-├── notebooks
+├── notebooks/
 │   └── Trader_Performance_vs_Sentiment.ipynb
 │
-├── charts
-├── reports
-└── README.md
+├── charts/
+│   ├── pnl_distribution.png
+│   ├── trade_frequency.png
+│   ├── position_size.png
+│   ├── long_vs_short.png
+│   ├── trader_activity.png
+│   └── performance_segments.png
+│
+├── README.md
+└── requirements.txt
 ```
 
 ## Technologies Used
